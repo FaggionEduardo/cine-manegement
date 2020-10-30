@@ -1,0 +1,14 @@
+.perfil {
+    height: 40px;
+    width: 40px;
+    transform: translateY(+30%) translateX(-120%);
+       
+    margin-right: 15px;
+    background-color: #ddd;
+    border-radius: 100%;
+    object-fit: cover; 
+    position:absolute
+}
+.userItem{
+    padding-left: 50px;
+}

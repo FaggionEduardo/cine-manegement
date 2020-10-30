@@ -1,0 +1,85 @@
+.data{
+    color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    cursor: pointer;
+}
+.data p{
+    text-align: center;
+}
+.datas{
+    display: flex;
+}
+.set{
+    color:royalblue;
+    font-size:40px;
+    display: flex;
+    align-items: center;
+}
+.contentHome{
+    padding: 5%;
+}
+.movie img{
+    width: 200px;
+}
+.movie{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 5px;
+    display: flex;
+}
+.desctemp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    color: #e6e6e6;
+    width: 300px
+}
+.salas{
+    margin-left: 5px;
+    color: royalblue
+}
+.salas div{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.sessionButton{
+    width: fit-content;
+    height: 30px;
+    background: transparent;
+    border:2px solid royalblue;
+    color:royalblue;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.sessionButton span{
+    background-color: red;
+    color: black;
+    margin: 3px;
+    font-size: 10px;
+    border-radius: 3px;
+    
+
+}
+.sessionButton:hover{
+    background-color:royalblue;
+    color:#e6e6e6;
+    border-color:#e6e6e6
+}
+.filtros{
+    margin-top: 5%;
+    margin-left: 10px;
+    color: royalblue;
+}

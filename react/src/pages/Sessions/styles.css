@@ -1,0 +1,89 @@
+.table{display:flex; margin:auto; padding-top: 40px;}
+
+
+.sessions-list{width: 100%; text-align: center; border-collapse: collapse} 
+.sessions-list tr:last-child{
+    border:none
+}
+.sessions-list td{
+    padding: 7px ;
+    color: #4169E1;
+   
+}
+.sessions-list td button{
+    padding: 7px ;
+    color: #4169E1;
+   
+}
+.session-item{
+    height: 50px;
+    border-bottom: 2px solid #4169E1;
+}
+
+@media screen and (max-width: 480px){
+    
+    .table,.pagina,.top{width: 80%;}
+    .sessions-list tbody td{display: flex; flex-direction: column; }
+}
+
+@media only screen and (min-width: 1200px){
+    .table, .pagina,.top{width:70%;}
+    .sessions-list tbody tr td:nth-child(1){width:10%;}
+    .sessions-list tbody tr td:nth-child(2){width:10%;}
+    .sessions-list tbody tr td:nth-child(3){width:10%;}
+    .sessions-list tbody tr td:nth-child(4){width:10%;}
+    .sessions-list tbody tr td:nth-child(5){width:10%;}
+    .sessions-list tbody tr td:nth-child(6){width:20%;}
+    .sessions-list tbody tr td:nth-child(7){width:10%;}
+    .sessions-list tbody tr td:nth-child(8){width:10%;}
+} 
+.buttons{
+    border:none;
+    background: none;
+    color:#4169E1;
+    height: 25px;
+    width: 25px;
+}
+.pagina{
+    line-height: 30px;
+    padding-top: 15px;
+    display:flex; margin:auto;
+    justify-content: flex-end;
+    color: #4169E1;
+
+}
+.pagina p{
+    font-size: 15px;
+
+}
+.op span{
+   margin:5px
+    
+}
+.top{
+    margin-top: 5%;
+    height: 50px;
+    display:flex; 
+    margin:auto;
+    justify-content: space-between;
+    align-items: center;
+    color: #4169E1;
+}
+.top button{
+    color: #4169E1
+}
+.content{
+    padding-top: 5%;
+}
+.input{
+    background: none;
+    border:none;
+    left:35px;
+    position: absolute;
+    height: 25px;
+    width: 215px;
+    color: #4169E1;
+}
+
+  
+ 

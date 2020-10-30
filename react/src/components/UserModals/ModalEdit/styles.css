@@ -1,0 +1,55 @@
+.btns{
+  height: 40px;
+  width: 80px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 10px;
+  color: white;
+  border:none
+}
+.inputItem input{ 
+    background: none;
+    border: 2px solid #4169E1;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    color: #4169E1;
+    margin-left: 10px;
+}
+.inputItem{
+  margin:10px;
+  display: flex;
+  line-height: 30px;
+  align-items: center;
+}
+.spanE{
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.select{
+  background: none;
+  border: 2px solid #4169E1;
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+  color: #4169E1;
+  margin-left: 10px;
+}
+.editEmailError{
+  position: absolute;
+  font-size: 10px;
+  color:red;
+  right:90px;
+  width: 200px;
+  line-height: 10px;
+}
+.editNomeError{
+  position: absolute;
+  font-size: 10px;
+  color:red;
+  right:90px;
+  width: 200px;
+  line-height: 10px;
+}

@@ -1,0 +1,40 @@
+.btns{
+  height: 40px;
+  width: 80px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 10px;
+  color: white;
+  border:none
+}
+.inputItem input{ 
+    background: none;
+    border: 2px solid #4169E1;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    color: #4169E1;
+    margin-left: 10px;
+}
+.inputItem{
+  margin:10px;
+  display: flex;
+  line-height: 30px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.span{
+  width: 140px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.select{
+  background: none;
+  border: 2px solid #4169E1;
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+  color: #4169E1;
+  margin-left: 10px;
+}

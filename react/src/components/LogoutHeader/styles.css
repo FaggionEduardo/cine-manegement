@@ -1,0 +1,13 @@
+.logoutBtnH{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    height: 45px;
+    width: 45px;
+    background:none;
+    cursor: pointer;
+  }
+  .logoutBtnH span{
+    color: royalblue;
+    line-height: 45px;
+  }
